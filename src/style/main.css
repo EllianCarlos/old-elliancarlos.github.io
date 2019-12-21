@@ -42,7 +42,7 @@ header #inside h1 {
 
 header #inside .wrapper{
     float: right;
-    width: 10vw;
+    width: 18vw;
     height: 12vh;
 }
 
@@ -57,6 +57,6 @@ header #inside .wrapper #img-group {
 header #inside .wrapper #img-group img {
     float: right;
     height: 3vh;
-    padding-left: 1vw;
+    padding-left: 1.5vw;
 }
 
