@@ -182,24 +182,40 @@ header #inside .wrapper #img-group img {
 }
 
 .whoami{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
     width: 100vw;
     height: 100.1vh;
 }
 
-.whoami .picconteiner {
-    width: 17vw;
-    height: 17vw;
-    max-width: 17vw;
-    max-height: 17vw;
+.whoami .top-whoami {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items:center;
 
-    float: left;
-    margin-top: 3vh;
-    margin-left: 3vw;
+    margin-top: 1%;
+    width: 100vw;
+    height: 28vh;
+}
+
+.whoami .top-whoami .picconteiner {
+    width: 13vw;
+    height: 13vw;
+    max-width: 13vw;
+    max-height: 13vw;
 
     border-radius: 50%;
     border-style: solid;
     border-color: grey;
     border-width: 0.5%;
+
 
     background-color: cornflowerblue;
     background-image: url(../images/serio_no_lab.jpg);
@@ -210,154 +226,135 @@ header #inside .wrapper #img-group img {
     background-position-y:70%;
 }
 
-.whoami h2 {
-    float: left;
-    margin-left: 5vw;
+.whoami .top-whoami .nameconteiner{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    flex-grow: 0.5;
 
-    width: 65vw;
-    height: 5vh;
-    line-height: 5vh;
-    font-size: 3vw;
-}
-
-@media only screen and (max-width: 600px) {
-    .whoami h2{
-        float: left;
-        margin-top: 2vh;
-        margin-left: 1vw;
-
-        width: 70vw;
-        height: 5vh;
-        font-size: 5vw;
-    }
-}
-
-@media only screen and (min-width:800px){
-    .whoami h2 {
-        margin-top:8vh;
-    }
-}
-
-.whoami h3 {
-    float: left;
-    margin-top: 1vh;
-    margin-left: 5vw;
     
+    min-width: 50%;
+}
+
+.whoami .top-whoami h2 {
+    font-size: 5vh;
+}
+
+.whoami .top-whoami h3 {
     font-weight: lighter;
-    
-    width: 70vw;
-    height: 3vh;
     font-size: 3vh;
 }
 
-@media only screen and (max-width:600px){
-    .whoami h3 {
-        float: left;
-        margin-top: 0vh;
-        margin-left: 1vw;
-        
-        font-weight: lighter;
-        
-        width: 70vw;
-        height: 4vw;
-        font-size: 4vw;
-    }
+.rpgconteiner .icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 
+    height: 11vh;
 }
 
-@media only screen and (min-width:600px){
-    .whoami .icons {
-        width: 70vw;
-        height: 8vh;
-        padding: 1%;
-        
-        /* float: left; */
-        margin-top: 10%;
-        margin-left: 2vw;
 
-        align-items: center;
+.rpgconteiner .icons img{
+    min-width: 4vw;
+    height: 4vw;
+
+    transition: all 0.2s ease-in; /* vendorless fallback */
+    -o-transition: all 0.2s ease-out; /* opera */
+    -ms-transition: all 0.2s ease-out; /* IE 10 */
+    -moz-transition: all 0.2s ease-out; /* Firefox */
+    -webkit-transition: all 0.2s ease-out; /*safari and chrome */
+}   
+
+.rpgconteiner .icons img:hover {
+    min-width: 5vw;
+    height: 5vw;
+}
+
+@media only screen and (max-width:600px){
+    .whoami{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: nowrap;
     }
-}
 
-@media only screen and (max-width:600px){
-    .whoami .icons {
-        width: 10vw;
-        height: 70vh;
-        padding: 1%;
-        
-        align-items: center;
+    .whoami .top-whoami {
+        height: 28vh;
+
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .whoami .top-whoami .picconteiner {
+        height: 15vh;
+        width: 15vh;
+        max-width: 15vh;
+        max-height: 15vh;
+        min-width: 15vh;
+        min-height: 15vh;
         
-        margin-top: 30vw;
-        margin-left: 5vw;
-    }    
-}
+        flex-grow: 1;
+    }
 
-@media only screen and (min-width:800px){
-    .whoami .icons {
+    .whoami .top-whoami .nameconteiner{
+        width: 80vw;
+        height: 1vh;
+        
+        align-items: center;
+        justify-content: top;
+    }
 
+    .whoami .top-whoami h2 {
+        font-size: 3vh;
+        text-align: center;
+    }
+
+    .whoami .top-whoami h3 {
+        font-size: 1.7vh;
+    }
+
+    .whoami .rpgconteiner .icons {
+        height: 5vh;
+    }
+
+    .whoami .rpgconteiner .icons img{
+        height: 4vh;
+    }   
+
+    .whoami .rpgconteiner .icons img:hover {
+        height: 5vh;
     }
 }
 
-@media only screen and (min-width:600px){
-    .whoami .icons img{
-        width: 5vw;
-        min-height: 5vw;
-        margin-right:1vw;
-        padding: 2px;
-        box-sizing: content-box;
+.itensconteiner {
+    width: 100vw;
+    height: 65vh;
 
-
-        transition: all 0.2s ease-in; /* vendorless fallback */
-        -o-transition: all 0.2s ease-out; /* opera */
-        -ms-transition: all 0.2s ease-out; /* IE 10 */
-        -moz-transition: all 0.2s ease-out; /* Firefox */
-        -webkit-transition: all 0.2s ease-out; /*safari and chrome */
-        /* border-radius: 50%;
-        border-width: 2px;
-        border-color: black;
-        border-style: solid; */ 
-    }   
-
-    .whoami .icons img:hover {
-        width: 6vw;
-        min-height: 6vw;
-        margin-right:1vw;
-        padding: 2px;
-        box-sizing: content-box;
-    }
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    
 }
 
-@media only screen and (max-width:600px){
-    .whoami .icons img{
-        height: 3vh;
-        min-width: 3vh;
-        box-sizing: content-box;
-        padding:18%;
-        margin-right:1vw;
-        
-        /* border-radius: 50%;
-        border-width: 1px;
-        border-color: black;
-        border-style: solid; */
-    }   
+.skillblock {
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 27vw;
+    height: 12vh;
 }
 
-
-
-/* @keyframes icon-bigger {
-    from {width: 5vw;}
-    to {width: 6vw;}
+.skillblock img {
+    height: 9vh;
 }
 
-@keyframes icon-bigger-back {
-    from {width: 6vw;}
-    to {width: 5vw;}
-} */
