@@ -253,7 +253,7 @@ header #inside .wrapper #img-group img {
     justify-content: space-around;
     align-items: center;
 
-    height: 11vh;
+    height: 12vh;
 }
 
 
@@ -265,13 +265,23 @@ header #inside .wrapper #img-group img {
     -o-transition: all 0.2s ease-out; /* opera */
     -ms-transition: all 0.2s ease-out; /* IE 10 */
     -moz-transition: all 0.2s ease-out; /* Firefox */
-    -webkit-transition: all 0.2s ease-out; /*safari and chrome */
+    -webkit-transition: all 0.2s ease-out; /* safari and chrome */
+    
 }   
 
 .rpgconteiner .icons img:hover {
-    min-width: 5vw;
-    height: 5vw;
+    /* min-width: 5vw; */
+    /* height: 5vw; */
+    transform: scale(1.30);
 }
+
+.smallTextIcons {
+    display: block;
+    position: absolute;
+    float: left;
+    text-align: center;  
+}
+
 
 @media only screen and (max-width:600px){
     .whoami{
