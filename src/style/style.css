@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 20vh;
+}
+
+
+header .line {
+    position: absolute;
+    
+    width: 100vw;
+    height: 3vh;
+    z-index: -50;
+
+    /* background-color:#75b79e; */
+    background-color:#a7e9af;
+}
+
+header .img-conteiner {
+    width: 17vh;
+    height: 17vh;
+
+    margin-top: 1vh;
+    z-index: 50;
+
+    background-image: url("../images/ellian.jpg");
+    background-size: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    border-radius: 50%;
+    /* border: 0.55vh solid #75b79e; */
+    border: 0.55vh solid #a7e9af;
+}
+
+header .icon-conteiner {
+    width: 10vh;
+    height: 10vh;
+    
+    margin-top: 1vh;
+    
+    background-color: #eef9bf;
+    
+    border-radius: 50%;
+    /* border: 0.7vh solid #75b79e; */
+    border: 0.7vh solid #a7e9af;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header .icon-conteiner img {
+    width: 7vh;
+    height: 7vh;   
+}
+
+div.text-presentation {
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-presentation h1{
+    font-size: 8vw;
+    font-weight: lighter;
+}
+
+.text-presentation p {
+    font-size: 4vw;
+    font-weight: lighter;
+    color: #777777;
+}
+
+.about-me {
+    height:40vh;
+    width:100vw;
+
+    padding: 1vh 5vw 1vh 5vw;
+
+    /* background-color: #75b79e; */
+    background-color: #a7e9af;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me h1{
+    font-size: 8vw;
+    font-weight: normal;
+}
+
+.about-me p{
+    margin-top: 2vh;
+    flex: 1;
+
+    font-size: 4vw;
+    text-indent: 3vw;
+    line-height: 2.5vh;
+    text-align: justify;
+}
+
+.about-me .line {
+    height: 2px;
+    width: 85vw;
+
+
+    position: absolute;
+    top: 60vh;
+    z-index: 50;
+
+    background-color: #000000;
+}
+
+.about-me .buttons-conteiner {
+    width: 80vw;
+    height: 8vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-me .buttons-conteiner .button {
+    width: 31vw;
+    height: 6vh;
+    line-height: 6vh;
+
+    background-color: #706FD3;
+
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.skills {
+    height:60vh;
+    width:100vw;
+
+    padding: 2vh 7vw 2vh 7vw;
+
+    background-color: #eef9bf;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.skills h1 {
+    width: 80vw;
+    height:  5.1vh;
+    
+    font-size: 8vw;
+    font-weight:normal;
+    line-height: 4vh;
+
+    text-align: center;
+}
+
+.skills .line-conteiner {
+    width: 95vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills .line-conteiner .skills-item{
+    width: 20vw;
+    height: 30vh;
+
+    margin-top: 5vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-item .level {
+    height: 7vh;
+    width: 7vh;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+.skills-item .level .circle {
+    width: 7vh;
+    height: 7vh;
+    
+    position: absolute;
+    z-index: 2;
+    
+    border-radius: 50%;
+    border-top: 1vw solid rgba(99, 58, 130, 0);
+    border-left: 1vw solid rgba(99, 58, 130, 0);
+    border-right: 1vw solid rgba(99, 58, 130, 0);
+    border-bottom: 1vw solid rgba(99, 58, 130, 1);
+}
+
+.skills-item .level .circle:first-child {
+    transform: rotate(90deg);
+} 
+
+.skills-item h6 {
+    font-size: 4vw;
+}
+
+.skills-item small {
+    font-size: 3vw;
+}
+
+.exp {
+    height:60vh;
+    width:100vw;
+
+    padding: 2vh 7vw 2vh 7vw;
+
+    background-color: #a7e9af;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.exp h1 {
+    width: 80vw;
+    height:  5.1vh;
+    
+    font-size: 8vw;
+    font-weight:normal;
+    line-height: 4vh;
+
+    text-align: center;
+}
+
+.exp .img {
+
+}
+
+.exp .text-conteiner h4{
+
+}
+
+.exp .text-conteiner p {
+
+}
+
+.exp .text-conteiner small{
+
+}
+
