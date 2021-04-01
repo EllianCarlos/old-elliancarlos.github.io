@@ -1,0 +1,1904 @@
+execve("/usr/bin/vim", ["vim"], 0x7ffc01ade160 /* 69 vars */) = 0
+brk(NULL)                               = 0x55f10b188000
+arch_prctl(0x3001 /* ARCH_??? */, 0x7ffc367239d0) = -1 EINVAL (Invalid argument)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=85317, ...}) = 0
+mmap(NULL, 85317, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f727f893000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360q\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\t\233\222%\274\260\320\31\331\326\10\204\276X>\263"..., 68, 880) = 68
+fstat(3, {st_mode=S_IFREG|0755, st_size=2029224, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f727f891000
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\t\233\222%\274\260\320\31\331\326\10\204\276X>\263"..., 68, 880) = 68
+mmap(NULL, 2036952, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f727f69f000
+mprotect(0x7f727f6c4000, 1847296, PROT_NONE) = 0
+mmap(0x7f727f6c4000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x7f727f6c4000
+mmap(0x7f727f83c000, 303104, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19d000) = 0x7f727f83c000
+mmap(0x7f727f887000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7f727f887000
+mmap(0x7f727f88d000, 13528, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f727f88d000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/liblua5.1-luv.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\262\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=160216, ...}) = 0
+mmap(NULL, 162008, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f727f677000
+mmap(0x7f727f680000, 86016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f727f680000
+mmap(0x7f727f695000, 28672, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e000) = 0x7f727f695000
+mmap(0x7f727f69c000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7f727f69c000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libuv.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\250\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=194648, ...}) = 0
+mmap(NULL, 198376, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f727f646000
+mprotect(0x7f727f64f000, 155648, PROT_NONE) = 0
+mmap(0x7f727f64f000, 110592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f727f64f000
+mmap(0x7f727f66a000, 40960, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7f727f66a000
+mmap(0x7f727f675000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2e000) = 0x7f727f675000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\201\0\0\0\0\0\0"..., 832) = 832
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\345Ga\367\265T\320\374\301V)Yf]\223\337"..., 68, 824) = 68
+fstat(3, {st_mode=S_IFREG|0755, st_size=157224, ...}) = 0
+pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\345Ga\367\265T\320\374\301V)Yf]\223\337"..., 68, 824) = 68
+mmap(NULL, 140408, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f727f623000
+mmap(0x7f727f62a000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f727f62a000
+mmap(0x7f727f63b000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7f727f63b000
+mmap(0x7f727f640000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7f727f640000
+mmap(0x7f727f642000, 13432, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f727f642000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libmsgpackc.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=34656, ...}) = 0
+mmap(NULL, 36880, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f727f619000
+mprotect(0x7f727f61b000, 24576, PROT_NONE) = 0
+mmap(0x7f727f61b000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f727f61b000
+mmap(0x7f727f61f000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f727f61f000
+mmap(0x7f727f621000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f727f621000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libvterm.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=68400, ...}) = 0
+mmap(NULL, 70392, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f727f607000
+mprotect(0x7f727f609000, 57344, PROT_NONE) = 0
+mmap(0x7f727f609000, 40960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f727f609000
+mmap(0x7f727f613000, 12288, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7f727f613000
+mmap(0x7f727f617000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7f727f617000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtermkey.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2004\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47312, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f727f605000
+mmap(NULL, 52552, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f727f5f8000
+mprotect(0x7f727f5fb000, 32768, PROT_NONE) = 0
+mmap(0x7f727f5fb000, 20480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f727f5fb000
+mmap(0x7f727f600000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7f727f600000
+mmap(0x7f727f603000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f727f603000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libunibilium.so.4", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\203\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=79944, ...}) = 0
+mmap(NULL, 81936, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f727f5e3000
+mmap(0x7f727f5eb000, 20480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7f727f5eb000
+mmap(0x7f727f5f0000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd000) = 0x7f727f5f0000
+mmap(0x7f727f5f4000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7f727f5f4000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\363\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1369352, ...}) = 0
+mmap(NULL, 1368336, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f727f494000
+mmap(0x7f727f4a3000, 684032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7f727f4a3000
+mmap(0x7f727f54a000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb6000) = 0x7f727f54a000
+mmap(0x7f727f5e1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14c000) = 0x7f727f5e1000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\23\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14848, ...}) = 0
+mmap(NULL, 16656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f727f48f000
+mmap(0x7f727f490000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f727f490000
+mmap(0x7f727f491000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f727f491000
+mmap(0x7f727f492000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f727f492000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libluajit-5.1.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320u\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=498464, ...}) = 0
+mmap(NULL, 500752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f727f414000
+mprotect(0x7f727f41b000, 462848, PROT_NONE) = 0
+mmap(0x7f727f41b000, 372736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f727f41b000
+mmap(0x7f727f476000, 86016, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x62000) = 0x7f727f476000
+mmap(0x7f727f48c000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x77000) = 0x7f727f48c000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \22\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18816, ...}) = 0
+mmap(NULL, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f727f40e000
+mmap(0x7f727f40f000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f727f40f000
+mmap(0x7f727f411000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f727f411000
+mmap(0x7f727f412000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f727f412000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f727f40c000
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3405\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=104984, ...}) = 0
+mmap(NULL, 107592, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f727f3f1000
+mmap(0x7f727f3f4000, 73728, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f727f3f4000
+mmap(0x7f727f406000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f727f406000
+mmap(0x7f727f40a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7f727f40a000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f727f3ee000
+arch_prctl(ARCH_SET_FS, 0x7f727f3ee740) = 0
+mprotect(0x7f727f887000, 12288, PROT_READ) = 0
+mprotect(0x7f727f40a000, 4096, PROT_READ) = 0
+mprotect(0x7f727f412000, 4096, PROT_READ) = 0
+mprotect(0x7f727f5e1000, 4096, PROT_READ) = 0
+mprotect(0x7f727f48c000, 8192, PROT_READ) = 0
+mprotect(0x7f727f492000, 4096, PROT_READ) = 0
+mprotect(0x7f727f5f4000, 12288, PROT_READ) = 0
+mprotect(0x7f727f603000, 4096, PROT_READ) = 0
+mprotect(0x7f727f617000, 4096, PROT_READ) = 0
+mprotect(0x7f727f621000, 4096, PROT_READ) = 0
+mprotect(0x7f727f640000, 4096, PROT_READ) = 0
+mprotect(0x7f727f675000, 4096, PROT_READ) = 0
+mprotect(0x7f727f69c000, 8192, PROT_READ) = 0
+mprotect(0x55f10a184000, 143360, PROT_READ) = 0
+mprotect(0x7f727f8d5000, 4096, PROT_READ) = 0
+munmap(0x7f727f893000, 85317)           = 0
+set_tid_address(0x7f727f3eea10)         = 51661
+set_robust_list(0x7f727f3eea20, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7f727f62abf0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f727f6383c0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7f727f62ac90, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7f727f6383c0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+epoll_create1(EPOLL_CLOEXEC)            = 3
+pipe2([4, 5], O_CLOEXEC)                = 0
+write(5, "*", 1)                        = 1
+futex(0x7f727f676600, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+pipe2([6, 7], O_NONBLOCK|O_CLOEXEC)     = 0
+brk(NULL)                               = 0x55f10b188000
+brk(0x55f10b1a9000)                     = 0x55f10b1a9000
+eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK)   = 8
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+read(4, "*", 1)                         = 1
+rt_sigaction(SIGPIPE, {sa_handler=0x7f727f65f3d0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f727f6e5210}, NULL, 8) = 0
+write(5, "*", 1)                        = 1
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+read(4, "*", 1)                         = 1
+rt_sigaction(SIGHUP, {sa_handler=0x7f727f65f3d0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f727f6e5210}, NULL, 8) = 0
+write(5, "*", 1)                        = 1
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+read(4, "*", 1)                         = 1
+rt_sigaction(SIGQUIT, {sa_handler=0x7f727f65f3d0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f727f6e5210}, NULL, 8) = 0
+write(5, "*", 1)                        = 1
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+read(4, "*", 1)                         = 1
+rt_sigaction(SIGTERM, {sa_handler=0x7f727f65f3d0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f727f6e5210}, NULL, 8) = 0
+write(5, "*", 1)                        = 1
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+read(4, "*", 1)                         = 1
+rt_sigaction(SIGPWR, {sa_handler=0x7f727f65f3d0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f727f6e5210}, NULL, 8) = 0
+write(5, "*", 1)                        = 1
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+read(4, "*", 1)                         = 1
+rt_sigaction(SIGUSR1, {sa_handler=0x7f727f65f3d0, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f727f6e5210}, NULL, 8) = 0
+write(5, "*", 1)                        = 1
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+epoll_create1(EPOLL_CLOEXEC)            = 9
+pipe2([10, 11], O_NONBLOCK|O_CLOEXEC)   = 0
+eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK)   = 12
+readlink("/proc/self/exe", "/usr/bin/nvim", 4095) = 13
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 13
+fstat(13, {st_mode=S_IFREG|0644, st_size=14537584, ...}) = 0
+mmap(NULL, 14537584, PROT_READ, MAP_PRIVATE, 13, 0) = 0x7f727e610000
+close(13)                               = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/home/elliancarlos")             = 0
+getcwd("/home/elliancarlos", 1025)      = 19
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getuid()                                = 1000
+getuid()                                = 1000
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+umask(077)                              = 002
+statx(AT_FDCWD, "$TMPDIR", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e90) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/tmp", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFDIR|S_ISVTX|0777, stx_size=4096, ...}) = 0
+getpid()                                = 51661
+mkdir("/tmp/nvimGaTLNz", 0700)          = 0
+umask(002)                              = 077
+openat(AT_FDCWD, "/dev/null", O_RDONLY|O_CLOEXEC) = 13
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 14
+bind(14, {sa_family=AF_UNIX, sun_path="/tmp/nvimGaTLNz/0"}, 110) = 0
+listen(14, 32)                          = 0
+brk(0x55f10b1d2000)                     = 0x55f10b1d2000
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 15
+fstat(15, {st_mode=S_IFREG|0644, st_size=2996, ...}) = 0
+read(15, "# Locale name alias data base.\n#"..., 4096) = 2996
+read(15, "", 4096)                      = 0
+close(15)                               = 0
+openat(AT_FDCWD, "/usr/share/locale/en_US.UTF-8/LC_MESSAGES/nvim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en_US.utf8/LC_MESSAGES/nvim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en_US/LC_MESSAGES/nvim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en.UTF-8/LC_MESSAGES/nvim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en.utf8/LC_MESSAGES/nvim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale/en/LC_MESSAGES/nvim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/nvim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/nvim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en_US/LC_MESSAGES/nvim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/nvim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en.utf8/LC_MESSAGES/nvim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en/LC_MESSAGES/nvim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+mmap(NULL, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f727de0f000
+mprotect(0x7f727de10000, 8388608, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x7f727e60efb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[51662], tls=0x7f727e60f700, child_tidptr=0x7f727e60f9d0) = 51662
+futex(0x55f10b1be640, FUTEX_WAIT_PRIVATE, 0, NULL) = 0
+futex(0x55f10b1be5f0, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/etc/xdg/xdg-ubuntu/nvim")       = -1 ENOENT (No such file or directory)
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/etc/xdg/xdg-ubuntu/nvim/sysinit.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc367230f0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/xdg/xdg-ubuntu/nvim/sysinit.vim", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/etc/xdg/nvim")                  = -1 ENOENT (No such file or directory)
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/etc/xdg/nvim/sysinit.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc367230f0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/xdg/nvim/sysinit.vim", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim")                = 0
+getcwd("/usr/share/nvim", 4096)         = 16
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/sysinit.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc367230f0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/nvim/sysinit.vim", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/home/elliancarlos/.config/nvim") = 0
+getcwd("/home/elliancarlos/.config/nvim", 4096) = 32
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/home/elliancarlos/.config/nvim/init.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=49, ...}) = 0
+openat(AT_FDCWD, "/home/elliancarlos/.config/nvim/init.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/home/elliancarlos/.config/nvim/init.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=49, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0664, st_size=49, ...}) = 0
+read(26, "noremap \303\247 l\nnoremap l k\nnoremap"..., 4096) = 49
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+statx(AT_FDCWD, "/home/elliancarlos/.config/nvim/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/xdg-ubuntu/nvim/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/nvim/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/site/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/ubuntu/nvim/site/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/nvim/site/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim/site/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/var/lib/snapd/desktop/nvim/site/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=58370, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=58370, ...}) = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime")        = 0
+getcwd("/usr/share/nvim/runtime", 4096) = 24
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=58370, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/filetype.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=58370, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=58370, ...}) = 0
+read(26, "\" Vim support file to detect fil"..., 4096) = 4096
+brk(0x55f10b1f3000)                     = 0x55f10b1f3000
+brk(0x55f10b1f2000)                     = 0x55f10b1f2000
+read(26, " |\n\t\\ else |\n\t\\   setf aspvbs |\n"..., 4096) = 4096
+brk(0x55f10b213000)                     = 0x55f10b213000
+brk(0x55f10b212000)                     = 0x55f10b212000
+read(26, "ufNewFile,BufRead *.css\t\t\tsetf c"..., 4096) = 4096
+brk(0x55f10b234000)                     = 0x55f10b234000
+brk(0x55f10b232000)                     = 0x55f10b232000
+read(26, "\n\t\\   setf gitsendemail |\n\t\\ els"..., 4096) = 4096
+brk(0x55f10b254000)                     = 0x55f10b254000
+brk(0x55f10b252000)                     = 0x55f10b252000
+read(26, "tsendemail |\n      \\ endif\nau Bu"..., 4096) = 4096
+brk(0x55f10b273000)                     = 0x55f10b273000
+brk(0x55f10b272000)                     = 0x55f10b272000
+read(26, "\tsetf ipfilter\n\n\" Informix 4GL ("..., 4096) = 4096
+brk(0x55f10b293000)                     = 0x55f10b293000
+brk(0x55f10b291000)                     = 0x55f10b291000
+read(26, "]akefile,*.mk,*.mak,*.dsp setf m"..., 4096) = 4096
+brk(0x55f10b2b2000)                     = 0x55f10b2b2000
+brk(0x55f10b2b1000)                     = 0x55f10b2b1000
+epoll_ctl(3, EPOLL_CTL_ADD, 6, {EPOLLIN, {u32=6, u64=6}}) = 0
+epoll_ctl(3, EPOLL_CTL_ADD, 8, {EPOLLIN, {u32=8, u64=8}}) = 0
+epoll_ctl(3, EPOLL_CTL_ADD, 14, {EPOLLIN, {u32=14, u64=14}}) = 0
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 0) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+brk(0x55f10b2d2000)                     = 0x55f10b2d2000
+brk(0x55f10b2d1000)                     = 0x55f10b2d1000
+read(26, "ufNewFile,BufRead *.[Oo][Pp][Ll]"..., 4096) = 4096
+brk(0x55f10b2f2000)                     = 0x55f10b2f2000
+brk(0x55f10b2f1000)                     = 0x55f10b2f1000
+read(26, "\n\n\" Python, Python Shell Startup"..., 4096) = 4096
+read(26, "etf sgmllnx |\n\t\\ elseif getline("..., 4096) = 4096
+brk(0x55f10b312000)                     = 0x55f10b312000
+brk(0x55f10b311000)                     = 0x55f10b311000
+brk(0x55f10b333000)                     = 0x55f10b333000
+brk(0x55f10b331000)                     = 0x55f10b331000
+read(26, "setf stata\n\" Also *.class, but n"..., 4096) = 4096
+brk(0x55f10b353000)                     = 0x55f10b353000
+brk(0x55f10b351000)                     = 0x55f10b351000
+read(26, "*.vba,.exrc,_exrc\tsetf vim\n\n\" Vi"..., 4096) = 4096
+brk(0x55f10b372000)                     = 0x55f10b372000
+brk(0x55f10b371000)                     = 0x55f10b371000
+read(26, "d *.yaml,*.yml\t\tsetf yaml\n\n\" Ram"..., 4096) = 4096
+epoll_wait(3, [], 1024, 0)              = 0
+read(26, "Linux loader\nau BufNewFile,BufRe"..., 4096) = 4096
+brk(0x55f10b392000)                     = 0x55f10b392000
+brk(0x55f10b390000)                     = 0x55f10b390000
+access("/home/elliancarlos/.config/nvim/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-ubuntu/nvim/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/nvim/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.local/share/nvim/site/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/ubuntu/nvim/site/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/share/nvim/site/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/site/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/var/lib/snapd/desktop/nvim/site/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/runtime/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/var/lib/snapd/desktop/nvim/site/after/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/site/after/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/share/nvim/site/after/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/ubuntu/nvim/site/after/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.local/share/nvim/site/after/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/nvim/after/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-ubuntu/nvim/after/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.config/nvim/after/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+read(26, "LLBACK, it's just guessing!\nau f"..., 4096) = 1026
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+statx(AT_FDCWD, "/var/lib/snapd/desktop/nvim/site/after/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim/site/after/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/nvim/site/after/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/ubuntu/nvim/site/after/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/site/after/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/nvim/after/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/xdg-ubuntu/nvim/after/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.config/nvim/after/filetype.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.config/nvim/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/xdg-ubuntu/nvim/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/nvim/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/site/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/ubuntu/nvim/site/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/nvim/site/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim/site/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/var/lib/snapd/desktop/nvim/site/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=971, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=971, ...}) = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime")        = 0
+getcwd("/usr/share/nvim/runtime", 4096) = 24
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=971, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/ftplugin.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=971, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=971, ...}) = 0
+read(26, "\" Vim support file to switch on "..., 4096) = 971
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+statx(AT_FDCWD, "/var/lib/snapd/desktop/nvim/site/after/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim/site/after/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/nvim/site/after/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/ubuntu/nvim/site/after/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/site/after/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/nvim/after/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/xdg-ubuntu/nvim/after/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.config/nvim/after/ftplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.config/nvim/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/xdg-ubuntu/nvim/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/nvim/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/site/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/ubuntu/nvim/site/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/nvim/site/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim/site/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/var/lib/snapd/desktop/nvim/site/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=767, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=767, ...}) = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime")        = 0
+getcwd("/usr/share/nvim/runtime", 4096) = 24
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=767, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/indent.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=767, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=767, ...}) = 0
+read(26, "\" Vim support file to switch on "..., 4096) = 767
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+statx(AT_FDCWD, "/var/lib/snapd/desktop/nvim/site/after/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim/site/after/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/nvim/site/after/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/ubuntu/nvim/site/after/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/site/after/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/nvim/after/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/xdg-ubuntu/nvim/after/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.config/nvim/after/indent.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722e70) = -1 ENOENT (No such file or directory)
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/syntax") = 0
+getcwd("/usr/share/nvim/runtime/syntax", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/syntax/syntax.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1228, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/syntax/syntax.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/syntax/syntax.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1228, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+read(26, "\" Vim syntax support file\n\" Main"..., 4096) = 1228
+statx(AT_FDCWD, "/home/elliancarlos/.config/nvim/syntax/synload.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36721a10) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/xdg-ubuntu/nvim/syntax/synload.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36721a10) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/nvim/syntax/synload.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36721a10) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/site/syntax/synload.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36721a10) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/ubuntu/nvim/site/syntax/synload.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36721a10) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/nvim/site/syntax/synload.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36721a10) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim/site/syntax/synload.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36721a10) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/var/lib/snapd/desktop/nvim/site/syntax/synload.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36721a10) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/syntax/synload.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1984, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/syntax/synload.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1984, ...}) = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/syntax") = 0
+getcwd("/usr/share/nvim/runtime/syntax", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/syntax/synload.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1984, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/syntax/synload.vim", O_RDONLY|O_CLOEXEC) = 27
+fcntl(27, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(27, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/syntax/synload.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1984, ...}) = 0
+fstat(27, {st_mode=S_IFREG|0644, st_size=1984, ...}) = 0
+read(27, "\" Vim syntax support file\n\" Main"..., 4096) = 1984
+statx(AT_FDCWD, "/home/elliancarlos/.config/nvim/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/xdg-ubuntu/nvim/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/nvim/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/site/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/ubuntu/nvim/site/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/nvim/site/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim/site/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/var/lib/snapd/desktop/nvim/site/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4093, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4093, ...}) = 0
+brk(0x55f10b3b1000)                     = 0x55f10b3b1000
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/syntax") = 0
+getcwd("/usr/share/nvim/runtime/syntax", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+brk(0x55f10b3b0000)                     = 0x55f10b3b0000
+statx(AT_FDCWD, "/usr/share/nvim/runtime/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4093, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/syntax/syncolor.vim", O_RDONLY|O_CLOEXEC) = 28
+fcntl(28, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(28, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4093, ...}) = 0
+fstat(28, {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+read(28, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+read(28, "", 4096)                      = 0
+close(28)                               = 0
+statx(AT_FDCWD, "/var/lib/snapd/desktop/nvim/site/after/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/nvim/site/after/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/nvim/site/after/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/ubuntu/nvim/site/after/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/site/after/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/nvim/after/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/xdg/xdg-ubuntu/nvim/after/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.config/nvim/after/syntax/syncolor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720f00) = -1 ENOENT (No such file or directory)
+read(27, "", 4096)                      = 0
+close(27)                               = 0
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+access("/home/elliancarlos/.config/nvim/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-ubuntu/nvim/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/nvim/pack/", R_OK)     = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.local/share/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/ubuntu/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/share/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/var/lib/snapd/desktop/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/runtime/pack/", R_OK) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/pack/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 26
+fstat(26, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(26, /* 3 entries */, 32768)  = 72
+getdents64(26, /* 0 entries */, 32768)  = 0
+close(26)                               = 0
+access("/usr/share/nvim/runtime/pack/dist/start/", R_OK) = -1 ENOENT (No such file or directory)
+access("/var/lib/snapd/desktop/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/share/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/ubuntu/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.local/share/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/nvim/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-ubuntu/nvim/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.config/nvim/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/home/elliancarlos/.config/nvim/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.config/nvim/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/etc/xdg/xdg-ubuntu/nvim/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-ubuntu/nvim/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/etc/xdg/nvim/plugin/", R_OK)   = -1 ENOENT (No such file or directory)
+access("/etc/xdg/nvim/plugin/", R_OK)   = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/home/elliancarlos/.local/share/nvim/site/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.local/share/nvim/site/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/ubuntu/nvim/site/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/ubuntu/nvim/site/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/local/share/nvim/site/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/share/nvim/site/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/site/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/site/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/var/lib/snapd/desktop/nvim/site/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/var/lib/snapd/desktop/nvim/site/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/plugin/", R_OK) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 26
+fstat(26, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(26, /* 15 entries */, 32768) = 504
+getdents64(26, /* 0 entries */, 32768)  = 0
+close(26)                               = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/gzip.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2499, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/gzip.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2499, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/gzip.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2499, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/health.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=45, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/health.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=45, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/health.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=45, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/man.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=429, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/man.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=429, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/man.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=429, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/matchit.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=107, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/matchit.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=107, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/matchit.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=107, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/matchparen.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7085, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/matchparen.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7085, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/matchparen.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7085, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/netrwPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=9872, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/netrwPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=9872, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/netrwPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=9872, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/rplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1929, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/rplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1929, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/rplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1929, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/shada.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1778, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/shada.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1778, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/shada.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1778, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/spellfile.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=236, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/spellfile.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=236, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/spellfile.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=236, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tarPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2271, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tarPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2271, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tarPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2271, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tohtml.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=10466, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tohtml.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=10466, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tohtml.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=10466, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tutor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=202, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tutor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=202, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tutor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=202, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/zipPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2510, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/zipPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2510, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/zipPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2510, ...}) = 0
+access("/usr/share/nvim/runtime/plugin/", R_OK) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 26
+fstat(26, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(26, /* 15 entries */, 32768) = 504
+getdents64(26, /* 0 entries */, 32768)  = 0
+close(26)                               = 0
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/plugin/gzip.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+access("/usr/share/nvim/runtime/plugin/gzip.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/plugin/health.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+access("/usr/share/nvim/runtime/plugin/health.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/plugin/man.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+access("/usr/share/nvim/runtime/plugin/man.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/plugin/matchit.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+access("/usr/share/nvim/runtime/plugin/matchit.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/plugin/matchparen.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+access("/usr/share/nvim/runtime/plugin/matchparen.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/plugin/netrwPlugin.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+access("/usr/share/nvim/runtime/plugin/netrwPlugin.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/plugin/rplugin.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+access("/usr/share/nvim/runtime/plugin/rplugin.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/plugin/shada.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+access("/usr/share/nvim/runtime/plugin/shada.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/plugin/spellfile.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+access("/usr/share/nvim/runtime/plugin/spellfile.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/plugin/tarPlugin.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+access("/usr/share/nvim/runtime/plugin/tarPlugin.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/plugin/tohtml.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+access("/usr/share/nvim/runtime/plugin/tohtml.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/plugin/tutor.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+access("/usr/share/nvim/runtime/plugin/tutor.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/plugin/zipPlugin.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+access("/usr/share/nvim/runtime/plugin/zipPlugin.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/plugin") = 0
+getcwd("/usr/share/nvim/runtime/plugin", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/gzip.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2499, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/gzip.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/gzip.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2499, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=2499, ...}) = 0
+read(26, "\" Vim plugin for editing compres"..., 4096) = 2499
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/plugin") = 0
+getcwd("/usr/share/nvim/runtime/plugin", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/health.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=45, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/health.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/health.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=45, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=45, ...}) = 0
+read(26, "autocmd CmdUndefined CheckHealth"..., 4096) = 45
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/plugin") = 0
+getcwd("/usr/share/nvim/runtime/plugin", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/man.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=429, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/man.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/man.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=429, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=429, ...}) = 0
+read(26, "\" Maintainer: Anmol Sethi <anmol"..., 4096) = 429
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/plugin") = 0
+getcwd("/usr/share/nvim/runtime/plugin", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/matchit.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=107, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/matchit.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/matchit.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=107, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=107, ...}) = 0
+read(26, "\" Nvim: load the matchit plugin "..., 4096) = 107
+access("/home/elliancarlos/.config/nvim/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-ubuntu/nvim/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/nvim/pack/", R_OK)     = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.local/share/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/ubuntu/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/share/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/var/lib/snapd/desktop/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/runtime/pack/", R_OK) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/pack/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 27
+fstat(27, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(27, /* 3 entries */, 32768)  = 72
+getdents64(27, /* 0 entries */, 32768)  = 0
+close(27)                               = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/pack/dist/start/matchit", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722090) = -1 ENOENT (No such file or directory)
+access("/var/lib/snapd/desktop/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/share/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/ubuntu/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.local/share/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/nvim/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-ubuntu/nvim/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.config/nvim/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.config/nvim/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-ubuntu/nvim/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/nvim/pack/", R_OK)     = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.local/share/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/ubuntu/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/share/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/var/lib/snapd/desktop/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/runtime/pack/", R_OK) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/pack/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 27
+fstat(27, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(27, /* 3 entries */, 32768)  = 72
+getdents64(27, /* 0 entries */, 32768)  = 0
+close(27)                               = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/pack/dist/opt/matchit", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/pack/dist/opt/matchit", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/pack/dist/opt/matchit", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime")        = 0
+getcwd("/usr/share/nvim/runtime", 4096) = 24
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/home/elliancarlos/.config/nvim") = 0
+getcwd("/home/elliancarlos/.config/nvim", 4096) = 32
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/etc/xdg/xdg-ubuntu/nvim")       = -1 ENOENT (No such file or directory)
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/etc/xdg/nvim")                  = -1 ENOENT (No such file or directory)
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/home/elliancarlos/.local/share/nvim/site") = -1 ENOENT (No such file or directory)
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/ubuntu/nvim/site")    = -1 ENOENT (No such file or directory)
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/local/share/nvim/site")     = -1 ENOENT (No such file or directory)
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/site")           = -1 ENOENT (No such file or directory)
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/var/lib/snapd/desktop/nvim/site") = -1 ENOENT (No such file or directory)
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime")        = 0
+getcwd("/usr/share/nvim/runtime", 4096) = 24
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/pack/dist/opt/matchit/after", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36722560) = -1 ENOENT (No such file or directory)
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/pack/dist/opt") = 0
+getcwd("/usr/share/nvim/runtime/pack/dist/opt", 4096) = 38
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 0) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+access("/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/", R_OK) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 27
+fstat(27, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(27, /* 3 entries */, 32768)  = 80
+getdents64(27, /* 0 entries */, 32768)  = 0
+close(27)                               = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4378, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4378, ...}) = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4378, ...}) = 0
+access("/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/", R_OK) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 27
+fstat(27, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(27, /* 3 entries */, 32768)  = 80
+getdents64(27, /* 0 entries */, 32768)  = 0
+close(27)                               = 0
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+access("/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim/", R_OK) = -1 ENOTDIR (Not a directory)
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin") = 0
+getcwd("/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin", 4096) = 53
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4378, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim", O_RDONLY|O_CLOEXEC) = 27
+fcntl(27, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(27, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4378, ...}) = 0
+fstat(27, {st_mode=S_IFREG|0644, st_size=4378, ...}) = 0
+read(27, "\"  matchit.vim: (global plugin) "..., 4096) = 4096
+read(27, "ime the main\n\" script is run, bu"..., 4096) = 282
+read(27, "", 4096)                      = 0
+close(27)                               = 0
+access("/usr/share/nvim/runtime/pack/dist/opt/matchit/ftdetect/", R_OK) = -1 ENOENT (No such file or directory)
+access("/var/lib/snapd/desktop/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/share/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/ubuntu/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.local/share/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/nvim/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-ubuntu/nvim/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.config/nvim/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/plugin") = 0
+getcwd("/usr/share/nvim/runtime/plugin", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/matchparen.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7085, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/matchparen.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/matchparen.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7085, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=7085, ...}) = 0
+read(26, "\" Vim plugin for showing matchin"..., 4096) = 4096
+read(26, "ne = stoplinetop\n  endif\n\n  \" Li"..., 4096) = 2989
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/plugin") = 0
+getcwd("/usr/share/nvim/runtime/plugin", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/netrwPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=9872, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/netrwPlugin.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/netrwPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=9872, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=9872, ...}) = 0
+read(26, "\" netrwPlugin.vim: Handles file "..., 4096) = 4096
+brk(0x55f10b3d1000)                     = 0x55f10b3d1000
+brk(0x55f10b3d0000)                     = 0x55f10b3d0000
+read(26, "count>,1,0+<bang>0,<q-args>)\ncom"..., 4096) = 4096
+read(26, "w_explore_bufnr.\" bufnr=\".bufnr("..., 4096) = 1680
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/plugin") = 0
+getcwd("/usr/share/nvim/runtime/plugin", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/rplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1929, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/rplugin.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/rplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1929, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=1929, ...}) = 0
+read(26, "if exists('g:loaded_remote_plugi"..., 4096) = 1929
+read(26, "", 4096)                      = 0
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFDIR|0700, stx_size=4096, ...}) = 0
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/rplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc3671f330) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.local/share/nvim/rplugin.vim", R_OK) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.config/nvim/init.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=49, ...}) = 0
+statx(AT_FDCWD, "/home/elliancarlos/.config/nvim/.init.vim-rplugin~", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc3671f330) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.config/nvim/.init.vim-rplugin~", R_OK) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/rplugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc36720aa0) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.local/share/nvim/rplugin.vim", R_OK) = -1 ENOENT (No such file or directory)
+close(26)                               = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/plugin") = 0
+getcwd("/usr/share/nvim/runtime/plugin", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/shada.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1778, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/shada.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/shada.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1778, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=1778, ...}) = 0
+read(26, "if exists('g:loaded_shada_plugin"..., 4096) = 1778
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/plugin") = 0
+getcwd("/usr/share/nvim/runtime/plugin", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/spellfile.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=236, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/spellfile.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/spellfile.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=236, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=236, ...}) = 0
+read(26, "\" Vim plugin for downloading spe"..., 4096) = 236
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/plugin") = 0
+getcwd("/usr/share/nvim/runtime/plugin", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tarPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2271, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tarPlugin.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tarPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2271, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=2271, ...}) = 0
+read(26, "\" tarPlugin.vim -- a Vim plugin "..., 4096) = 2271
+epoll_wait(3, [], 1024, 0)              = 0
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/plugin") = 0
+getcwd("/usr/share/nvim/runtime/plugin", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tohtml.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=10466, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tohtml.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tohtml.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=10466, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=10466, ...}) = 0
+read(26, "\" Vim plugin for converting a sy"..., 4096) = 4096
+read(26, "' for converted document encodin"..., 4096) = 4096
+read(26, " html_prevent_copy contains\n\"   "..., 4096) = 2274
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/plugin") = 0
+getcwd("/usr/share/nvim/runtime/plugin", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tutor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=202, ...}) = 0
+brk(0x55f10b3f1000)                     = 0x55f10b3f1000
+brk(0x55f10b3e8000)                     = 0x55f10b3e8000
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tutor.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/tutor.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=202, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=202, ...}) = 0
+read(26, "if exists('g:loaded_tutor_mode_p"..., 4096) = 202
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/usr/share/nvim/runtime/plugin") = 0
+getcwd("/usr/share/nvim/runtime/plugin", 4096) = 31
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/zipPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2510, ...}) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/plugin/zipPlugin.vim", O_RDONLY|O_CLOEXEC) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+fcntl(26, F_GETFL)                      = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+statx(AT_FDCWD, "/usr/share/nvim/runtime/plugin/zipPlugin.vim", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2510, ...}) = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=2510, ...}) = 0
+read(26, "\" zipPlugin.vim: Handles browsin"..., 4096) = 2510
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+access("/home/elliancarlos/.config/nvim/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-ubuntu/nvim/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/nvim/pack/", R_OK)     = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.local/share/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/ubuntu/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/share/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/var/lib/snapd/desktop/nvim/site/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/runtime/pack/", R_OK) = 0
+openat(AT_FDCWD, "/usr/share/nvim/runtime/pack/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 26
+fstat(26, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents64(26, /* 3 entries */, 32768)  = 72
+getdents64(26, /* 0 entries */, 32768)  = 0
+close(26)                               = 0
+access("/usr/share/nvim/runtime/pack/dist/start/", R_OK) = -1 ENOENT (No such file or directory)
+access("/var/lib/snapd/desktop/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/share/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/ubuntu/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.local/share/nvim/site/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/nvim/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-ubuntu/nvim/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.config/nvim/after/pack/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/var/lib/snapd/desktop/nvim/site/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/var/lib/snapd/desktop/nvim/site/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/nvim/site/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/nvim/site/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/local/share/nvim/site/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/local/share/nvim/site/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/usr/share/ubuntu/nvim/site/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/usr/share/ubuntu/nvim/site/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/home/elliancarlos/.local/share/nvim/site/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.local/share/nvim/site/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/etc/xdg/nvim/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/nvim/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/etc/xdg/xdg-ubuntu/nvim/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/etc/xdg/xdg-ubuntu/nvim/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+epoll_wait(3, [], 1024, 0)              = 0
+access("/home/elliancarlos/.config/nvim/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+access("/home/elliancarlos/.config/nvim/after/plugin/", R_OK) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/shada/main.shada", O_RDONLY|O_CLOEXEC) = 26
+mmap(NULL, 880640, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f727dd38000
+mmap(NULL, 880640, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f727dc61000
+mmap(NULL, 880640, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f727db8a000
+mmap(NULL, 880640, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f727dab3000
+mmap(NULL, 880640, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f727d9dc000
+readv(26, [{iov_base="\1", iov_len=1}, {iov_base="\316`e\21\337H\205\251generator\304\4nvim\247version\304"..., iov_len=1024}], 2) = 1025
+readv(26, [{iov_base="rc\241l\34", iov_len=5}, {iov_base="\10\316`e\20\217!\202\241f\304\31/home/elliancarlos/."..., iov_len=1024}], 2) = 1029
+readv(26, [{iov_base="os/.vimrc\241l\16", iov_len=12}, {iov_base="\10\316`e\21\16!\202\241f\304\31/home/elliancarlos/."..., iov_len=1024}], 2) = 1036
+readv(26, [{iov_base="carlos/.vimrc\241l\25", iov_len=16}, {iov_base="\10\316`e\21\17!\202\241f\304\31/home/elliancarlos/."..., iov_len=1024}], 2) = 1040
+readv(26, [{iov_base="iancarlos/.vimrc\241l\20", iov_len=19}, {iov_base="\10\316`e\21\17!\202\241f\304\31/home/elliancarlos/."..., iov_len=1024}], 2) = 1043
+readv(26, [{iov_base="\307", iov_len=1}, {iov_base="'\204\241f\304\31/home/elliancarlos/.vimrc\241"..., iov_len=1024}], 2) = 1025
+readv(26, [{iov_base="os/.vimrc\241l\32", iov_len=12}, {iov_base="\v\316`e\20\213!\202\241f\304\31/home/elliancarlos/."..., iov_len=1024}], 2) = 1036
+readv(26, [{iov_base="utros/Projects/elliancarlos.gith"..., iov_len=48}, {iov_base="\v\316`e\20\254D\201\241f\304?/media/elliancarlos/"..., iov_len=1024}], 2) = 1072
+readv(26, [{iov_base="\304N/media/elliancarlos/Outros/Pro"..., iov_len=83}, {iov_base="\v\316`e\17ZV\202\241f\304N/media/elliancarlos/"..., iov_len=1024}], 2) = 1107
+readv(26, [{iov_base="\316", iov_len=1}, {iov_base="`e\17ZV\202\241f\304N/media/elliancarlos/Ou"..., iov_len=1024}], 2) = 1025
+readv(26, [{iov_base="e\17Z", iov_len=3}, {iov_base="V\202\241f\304N/media/elliancarlos/Outros"..., iov_len=1024}], 2) = 1027
+readv(26, [{iov_base="\202\241f\304N/media/elliancarlos/Outros/"..., iov_len=86}, {iov_base="\v\316`e\17ZV\202\241f\304N/media/elliancarlos/"..., iov_len=1024}], 2) = 1110
+readv(26, [{iov_base="\316", iov_len=1}, {iov_base="`e\17ZV\202\241f\304N/media/elliancarlos/Ou"..., iov_len=1024}], 2) = 1025
+readv(26, [{iov_base="e\17Z", iov_len=3}, {iov_base="V\202\241f\304N/media/elliancarlos/Outros"..., iov_len=1024}], 2) = 1027
+readv(26, [{iov_base="\202\241f\304N/media/elliancarlos/Outros/"..., iov_len=86}, {iov_base="\v\316`e\17ZV\202\241f\304N/media/elliancarlos/"..., iov_len=1024}], 2) = 1110
+readv(26, [{iov_base="\316", iov_len=1}, {iov_base="`e\17ZV\202\241f\304N/media/elliancarlos/Ou"..., iov_len=1024}], 2) = 1025
+readv(26, [{iov_base="\v", iov_len=1}, {iov_base="\316`e\17bY\203\241f\304N/media/elliancarlos/O"..., iov_len=1024}], 2) = 1025
+readv(26, [{iov_base="default/grub\241l#\241c\24", iov_len=18}, {iov_base="\n\316`N+\352\37\204\241f\304\21/etc/default/grub\241l#"..., iov_len=1024}], 2) = 1042
+readv(26, [{iov_base="f\304(/home/elliancarlos/.config/nv"..., iov_len=43}, {iov_base="\v\316`N*\2320\202\241f\304(/home/elliancarlos/."..., iov_len=1024}], 2) = 1067
+readv(26, [{iov_base="rc\241l\t", iov_len=5}, {iov_base="\v\316`N%A!\202\241f\304\31/home/elliancarlos/."..., iov_len=1024}], 2) = 1029
+readv(26, [{iov_base="\21\311", iov_len=2}, {iov_base="\6\222\0\304\2wq\4\316`e\21\337\6\222\0\304\2q!\4\316`e\16\23\7\223\1\304\2@"..., iov_len=1024}], 2) = 36
+readv(26, [{iov_base="", iov_len=990}], 1) = 0
+mmap(NULL, 323584, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f727d98d000
+mmap(NULL, 323584, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f727d93e000
+mmap(NULL, 323584, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f727d8ef000
+mmap(NULL, 323584, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f727d8a0000
+mmap(NULL, 323584, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f727d851000
+munmap(0x7f727dd38000, 880640)          = 0
+munmap(0x7f727dc61000, 880640)          = 0
+munmap(0x7f727db8a000, 880640)          = 0
+munmap(0x7f727dab3000, 880640)          = 0
+munmap(0x7f727d9dc000, 880640)          = 0
+close(26)                               = 0
+getuid()                                = 1000
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 26
+connect(26, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(26)                               = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 26
+connect(26, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(26)                               = 0
+openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 26
+fstat(26, {st_mode=S_IFREG|0644, st_size=542, ...}) = 0
+read(26, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 542
+read(26, "", 4096)                      = 0
+close(26)                               = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 26
+fstat(26, {st_mode=S_IFREG|0644, st_size=85317, ...}) = 0
+mmap(NULL, 85317, PROT_READ, MAP_PRIVATE, 26, 0) = 0x7f727f893000
+close(26)                               = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 26
+read(26, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3005\0\0\0\0\0\0"..., 832) = 832
+fstat(26, {st_mode=S_IFREG|0644, st_size=51832, ...}) = 0
+mmap(NULL, 79672, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 26, 0) = 0x7f727ddfb000
+mmap(0x7f727ddfe000, 28672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 26, 0x3000) = 0x7f727ddfe000
+mmap(0x7f727de05000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 26, 0xa000) = 0x7f727de05000
+mmap(0x7f727de07000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 26, 0xb000) = 0x7f727de07000
+mmap(0x7f727de09000, 22328, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f727de09000
+close(26)                               = 0
+mprotect(0x7f727de07000, 4096, PROT_READ) = 0
+munmap(0x7f727f893000, 85317)           = 0
+openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 26
+lseek(26, 0, SEEK_CUR)                  = 0
+fstat(26, {st_mode=S_IFREG|0644, st_size=2852, ...}) = 0
+read(26, "root:x:0:0:root:/root:/bin/bash\n"..., 4096) = 2852
+close(26)                               = 0
+uname({sysname="Linux", nodename="homepc", ...}) = 0
+getpid()                                = 51661
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+statx(AT_FDCWD, "/media/elliancarlos/Outros/Projects/elliancarlos.github.io", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=262144, ...}) = 0
+statx(AT_FDCWD, "", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc3671eea0) = -1 ENOENT (No such file or directory)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+brk(0x55f10b409000)                     = 0x55f10b409000
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a4, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 1
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 1
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a4, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/swap//%media%elliancarlos%Outros%Projects%elliancarlos.github.io.swp", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, 0x7ffc367222b0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/swap//", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/swap//%media%elliancarlos%Outros%Projects%elliancarlos.github.io.swp", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, 0x7ffc36722bd0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/swap//%media%elliancarlos%Outros%Projects%elliancarlos.github.io.swp", O_RDWR|O_CREAT|O_EXCL|O_NOFOLLOW|O_CLOEXEC, 0600) = 26
+fcntl(26, F_GETFD)                      = 0x1 (flags FD_CLOEXEC)
+lseek(26, 0, SEEK_SET)                  = 0
+write(26, "b0VIM 8.0\0\0\0\0\20\0\0\0\0\0\0\0\0\0\0\315\311\0\0elli"..., 4096) = 4096
+epoll_wait(3, [], 1024, 0)              = 0
+lseek(26, 0, SEEK_SET)                  = 0
+write(26, "b0VIM 8.0\0\0\0\0\20\0\0\0\0\0\0\0\0\0\0\315\311\0\0elli"..., 4096) = 4096
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a0, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a4, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a0, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a4, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 3888) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a0, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a0, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a0, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a4, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f7278011150, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+futex(0x7f727e60ee88, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a0, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a4, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [{EPOLLIN, {u32=8, u64=8}}], 1024, 4000) = 1
+read(8, "\1\0\0\0\0\0\0\0", 1024)       = 8
+futex(0x7f72780111a0, FUTEX_WAKE_PRIVATE, 1) = 1
+epoll_wait(3, [], 1024, 0)              = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 0)              = 0
+openat(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/shada/main.shada", O_RDONLY|O_CLOEXEC) = 27
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/shada/main.shada", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0600, stx_size=20961, ...}) = 0
+openat(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/shada/main.shada.tmp.a", O_WRONLY|O_CREAT|O_EXCL|O_NOFOLLOW|O_CLOEXEC, 0600) = 28
+brk(0x55f10b4ea000)                     = 0x55f10b4ea000
+brk(0x55f10b5c0000)                     = 0x55f10b5c0000
+brk(0x55f10b697000)                     = 0x55f10b697000
+brk(0x55f10b76e000)                     = 0x55f10b76e000
+brk(0x55f10b845000)                     = 0x55f10b845000
+getpid()                                = 51661
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 1025) = 59
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/home/elliancarlos")             = 0
+getcwd("/home/elliancarlos", 4096)      = 19
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "/home/elliancarlos/.vimrc", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0664, stx_size=505, ...}) = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 1025) = 59
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, ":set", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc3671d9e0) = -1 ENOENT (No such file or directory)
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 1025) = 59
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+getcwd("/media/elliancarlos/Outros/Projects/elliancarlos.github.io", 4096) = 59
+chdir("/media/elliancarlos/Outros/Projects/elliancarlos.github.io") = 0
+statx(AT_FDCWD, "index.html", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=1241, ...}) = 0
+readv(27, [{iov_base="\1", iov_len=1}, {iov_base="\316`e\21\337H\205\251generator\304\4nvim\247version\304"..., iov_len=1024}], 2) = 1025
+readv(27, [{iov_base="rc\241l\34", iov_len=5}, {iov_base="\10\316`e\20\217!\202\241f\304\31/home/elliancarlos/."..., iov_len=1024}], 2) = 1029
+readv(27, [{iov_base="os/.vimrc\241l\16", iov_len=12}, {iov_base="\10\316`e\21\16!\202\241f\304\31/home/elliancarlos/."..., iov_len=1024}], 2) = 1036
+readv(27, [{iov_base="carlos/.vimrc\241l\25", iov_len=16}, {iov_base="\10\316`e\21\17!\202\241f\304\31/home/elliancarlos/."..., iov_len=1024}], 2) = 1040
+readv(27, [{iov_base="iancarlos/.vimrc\241l\20", iov_len=19}, {iov_base="\10\316`e\21\17!\202\241f\304\31/home/elliancarlos/."..., iov_len=1024}], 2) = 1043
+brk(0x55f10b86f000)                     = 0x55f10b86f000
+readv(27, [{iov_base="\307", iov_len=1}, {iov_base="'\204\241f\304\31/home/elliancarlos/.vimrc\241"..., iov_len=1024}], 2) = 1025
+readv(27, [{iov_base="os/.vimrc\241l\32", iov_len=12}, {iov_base="\v\316`e\20\213!\202\241f\304\31/home/elliancarlos/."..., iov_len=1024}], 2) = 1036
+readv(27, [{iov_base="utros/Projects/elliancarlos.gith"..., iov_len=48}, {iov_base="\v\316`e\20\254D\201\241f\304?/media/elliancarlos/"..., iov_len=1024}], 2) = 1072
+readv(27, [{iov_base="\304N/media/elliancarlos/Outros/Pro"..., iov_len=83}, {iov_base="\v\316`e\17ZV\202\241f\304N/media/elliancarlos/"..., iov_len=1024}], 2) = 1107
+readv(27, [{iov_base="\316", iov_len=1}, {iov_base="`e\17ZV\202\241f\304N/media/elliancarlos/Ou"..., iov_len=1024}], 2) = 1025
+readv(27, [{iov_base="e\17Z", iov_len=3}, {iov_base="V\202\241f\304N/media/elliancarlos/Outros"..., iov_len=1024}], 2) = 1027
+readv(27, [{iov_base="\202\241f\304N/media/elliancarlos/Outros/"..., iov_len=86}, {iov_base="\v\316`e\17ZV\202\241f\304N/media/elliancarlos/"..., iov_len=1024}], 2) = 1110
+readv(27, [{iov_base="\316", iov_len=1}, {iov_base="`e\17ZV\202\241f\304N/media/elliancarlos/Ou"..., iov_len=1024}], 2) = 1025
+readv(27, [{iov_base="e\17Z", iov_len=3}, {iov_base="V\202\241f\304N/media/elliancarlos/Outros"..., iov_len=1024}], 2) = 1027
+readv(27, [{iov_base="\202\241f\304N/media/elliancarlos/Outros/"..., iov_len=86}, {iov_base="\v\316`e\17ZV\202\241f\304N/media/elliancarlos/"..., iov_len=1024}], 2) = 1110
+readv(27, [{iov_base="\316", iov_len=1}, {iov_base="`e\17ZV\202\241f\304N/media/elliancarlos/Ou"..., iov_len=1024}], 2) = 1025
+readv(27, [{iov_base="\v", iov_len=1}, {iov_base="\316`e\17bY\203\241f\304N/media/elliancarlos/O"..., iov_len=1024}], 2) = 1025
+readv(27, [{iov_base="default/grub\241l#\241c\24", iov_len=18}, {iov_base="\n\316`N+\352\37\204\241f\304\21/etc/default/grub\241l#"..., iov_len=1024}], 2) = 1042
+readv(27, [{iov_base="f\304(/home/elliancarlos/.config/nv"..., iov_len=43}, {iov_base="\v\316`N*\2320\202\241f\304(/home/elliancarlos/."..., iov_len=1024}], 2) = 1067
+readv(27, [{iov_base="rc\241l\t", iov_len=5}, {iov_base="\v\316`N%A!\202\241f\304\31/home/elliancarlos/."..., iov_len=1024}], 2) = 1029
+brk(0x55f10b8d6000)                     = 0x55f10b8d6000
+readv(27, [{iov_base="\21\311", iov_len=2}, {iov_base="\6\222\0\304\2wq\4\316`e\21\337\6\222\0\304\2q!\4\316`e\16\23\7\223\1\304\2@"..., iov_len=1024}], 2) = 36
+readv(27, [{iov_base="", iov_len=990}], 1) = 0
+write(28, "\1\316`e\21\351H\205\251generator\304\4nvim\247version"..., 1024) = 1024
+write(28, "mrc\241l\21\10\316`e\21\16!\202\241f\304\31/home/ellianca"..., 1024) = 1024
+write(28, "elliancarlos/.vimrc\241l\24\10\316`e\21\17!\202\241f"..., 1024) = 1024
+write(28, "`e\21\17!\202\241f\304\31/home/elliancarlos/.vi"..., 1024) = 1024
+write(28, "ncarlos/.vimrc\241l\25\10\316`e\21\17$\203\241f\304\31/ho"..., 1024) = 1024
+write(28, "os/.vimrc\241l\6\241c\3\241n.\v\316`e\17\234$\203\241f\304\31/h"..., 1024) = 1024
+write(28, "\304\31/home/elliancarlos/.vimrc\241l\26\v\316"..., 1024) = 1024
+write(28, "ects/elliancarlos.github.io/:set"..., 1024) = 1024
+write(28, "ub.io/src/style/style.css\241l$\v\316`e"..., 1024) = 1024
+write(28, "b.io/src/style/style.css\241l#\v\316`e\17"..., 1024) = 1024
+write(28, ".io/src/style/style.css\241l$\v\316`e\17Z"..., 1024) = 1024
+write(28, "io/src/style/style.css\241l#\v\316`e\17ZV"..., 1024) = 1024
+write(28, "o/src/style/style.css\241l$\v\316`e\17ZV\202"..., 1024) = 1024
+write(28, "/src/style/style.css\241l#\v\316`e\17ZV\202\241"..., 1024) = 1024
+write(28, "src/style/style.css\241l$\v\316`e\17ZV\202\241f"..., 1024) = 1024
+write(28, "rc/style/style.css\241l#\v\316`e\17ZV\202\241f\304"..., 1024) = 1024
+write(28, "c/style/style.css\241l$\v\316`e\17ZV\202\241f\304N"..., 1024) = 1024
+write(28, "/elliancarlos.github.io\241l\f\n\316`e\16\20"..., 1024) = 1024
+write(28, "los/.config/nvim/init.vim\241c\17\v\316`N"..., 1024) = 1024
+write(28, "\261\n\316`N(\36%\203\241f\304\31/home/elliancarlos/"..., 1024) = 1024
+close(27)                               = 0
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/shada/main.shada", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0600, stx_size=20961, ...}) = 0
+getuid()                                = 1000
+getuid()                                = 1000
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/shada/main.shada.tmp.a", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0600, stx_size=20480, ...}) = 0
+statx(AT_FDCWD, "/home/elliancarlos/.local/share/nvim/shada/main.shada", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFREG|0600, stx_size=20961, ...}) = 0
+unlink("/home/elliancarlos/.local/share/nvim/shada/main.shada") = 0
+rename("/home/elliancarlos/.local/share/nvim/shada/main.shada.tmp.a", "/home/elliancarlos/.local/share/nvim/shada/main.shada") = 0
+unlink("/home/elliancarlos/.local/share/nvim/shada/main.shada.tmp.a") = -1 ENOENT (No such file or directory)
+write(28, "dia/elliancarlos/Outros/Projects"..., 405) = 405
+close(28)                               = 0
+write(18, "\1\0\0\0\0\0\0\0", 8)        = 8
+epoll_wait(3, [], 1024, 8)              = 0
+close(26)                               = 0
+unlink("/home/elliancarlos/.local/share/nvim/swap//%media%elliancarlos%Outros%Projects%elliancarlos.github.io.swp") = 0
+statx(AT_FDCWD, "/tmp/nvimGaTLNz", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFDIR|0700, stx_size=4096, ...}) = 0
+access("/tmp/nvimGaTLNz/", R_OK)        = 0
+openat(AT_FDCWD, "/tmp/nvimGaTLNz/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 15
+fstat(15, {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+getdents64(15, /* 3 entries */, 32768)  = 72
+getdents64(15, /* 0 entries */, 32768)  = 0
+close(15)                               = 0
+statx(AT_FDCWD, "/tmp/nvimGaTLNz/0", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFSOCK|0775, stx_size=0, ...}) = 0
+statx(AT_FDCWD, "/tmp/nvimGaTLNz/0", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFSOCK|0775, stx_size=0, ...}) = 0
+statx(AT_FDCWD, "/tmp/nvimGaTLNz/0", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFSOCK|0775, stx_size=0, ...}) = 0
+statx(AT_FDCWD, "/tmp/nvimGaTLNz/0", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|0x1000, stx_attributes=0, stx_mode=S_IFSOCK|0775, stx_size=0, ...}) = 0
+unlink("/tmp/nvimGaTLNz/0")             = 0
+rmdir("/tmp/nvimGaTLNz")                = 0
+epoll_wait(3, [], 1024, 0)              = 0
+unlink("/tmp/nvimGaTLNz/0")             = -1 ENOENT (No such file or directory)
+epoll_ctl(3, EPOLL_CTL_DEL, 14, 0x7ffc36722b3c) = 0
+close(14)                               = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+read(4, "*", 1)                         = 1
+rt_sigaction(SIGPIPE, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f727f6e5210}, NULL, 8) = 0
+write(5, "*", 1)                        = 1
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+read(4, "*", 1)                         = 1
+rt_sigaction(SIGHUP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f727f6e5210}, NULL, 8) = 0
+write(5, "*", 1)                        = 1
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+read(4, "*", 1)                         = 1
+rt_sigaction(SIGQUIT, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f727f6e5210}, NULL, 8) = 0
+write(5, "*", 1)                        = 1
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+read(4, "*", 1)                         = 1
+rt_sigaction(SIGTERM, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f727f6e5210}, NULL, 8) = 0
+write(5, "*", 1)                        = 1
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+read(4, "*", 1)                         = 1
+rt_sigaction(SIGPWR, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f727f6e5210}, NULL, 8) = 0
+write(5, "*", 1)                        = 1
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+read(4, "*", 1)                         = 1
+rt_sigaction(SIGUSR1, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f727f6e5210}, NULL, 8) = 0
+write(5, "*", 1)                        = 1
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+close(6)                                = 0
+close(7)                                = 0
+close(8)                                = 0
+close(13)                               = 0
+close(3)                                = 0
+epoll_create1(EPOLL_CLOEXEC)            = 3
+pipe2([6, 7], O_NONBLOCK|O_CLOEXEC)     = 0
+eventfd2(0, EFD_CLOEXEC|EFD_NONBLOCK)   = 8
+openat(AT_FDCWD, "/dev/null", O_RDONLY|O_CLOEXEC) = 13
+fcntl(0, F_GETFL)                       = 0x802 (flags O_RDWR|O_NONBLOCK)
+ioctl(0, FIONBIO, [1])                  = 0
+ioctl(0, FIONBIO, [0])                  = 0
+epoll_ctl(3, EPOLL_CTL_DEL, 0, 0x7ffc367226cc) = -1 ENOENT (No such file or directory)
+epoll_ctl(3, EPOLL_CTL_ADD, 6, {EPOLLIN, {u32=6, u64=6}}) = 0
+epoll_ctl(3, EPOLL_CTL_ADD, 8, {EPOLLIN, {u32=8, u64=8}}) = 0
+epoll_wait(3, [], 1024, 0)              = 0
+close(6)                                = 0
+close(7)                                = 0
+close(8)                                = 0
+close(13)                               = 0
+close(3)                                = 0
+close(4)                                = 0
+close(5)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
